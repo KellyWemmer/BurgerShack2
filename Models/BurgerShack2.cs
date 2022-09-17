@@ -1,4 +1,4 @@
-
+using System.ComponentModel.DataAnnotations;
 
 namespace BurgerShack2.Models
 {
@@ -12,6 +12,11 @@ namespace BurgerShack2.Models
             NumPatties = numPatties;
             HaveOnions = haveOnions;
             Id = id;
+        }
+
+        public Burger()
+        {
+
         }
 
         public string Name {get; set; }
